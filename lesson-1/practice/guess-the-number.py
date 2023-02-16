@@ -31,7 +31,57 @@
 # 1) get user name , if user_name length < 2 => Incorrect data , try again
 # 2) user_name length > 2 => Do you want to register here ? y/n :
 # 3) if "y" -> enter your email => if email contain "@" -> it's valid , otherwise -> invalid -> try again
-
 # 4) if "n" -> goodbye
 # 5) if something else -> incorrect data try again later
 # 6) Programm works until user enter correct (valid) data ;
+
+# * +++++++++++++++++++++++++++++++++++++++++++++++
+
+# is_running = True
+
+# while is_running:
+#     user_name = input("Enter your name : ")
+
+#     if len(user_name) > 2:
+
+#         user_choose = input("Do you want to register here ?")
+
+#         # lower
+#         if user_choose.lower() == "y":
+
+#             user_email = input("Eneter your email : ")
+
+#             i = 0
+
+#             is_snail_exist = False
+
+#             while i < len(user_email):
+#                 char = user_email[i]
+
+#                 if char == "@":
+
+#                     is_snail_exist = True
+#                     print("All right")
+
+#                 i = i + 1
+
+#             if is_snail_exist:
+#                 print("Correct data")
+#                 is_running = False
+
+#             else:
+#                 print("Incorrect data , enter your name again")
+
+#         else:
+#             print("Goodbye")
+
+#     else:
+#         print("Your name short that I expect")
+
+#         is_exit = input("Do you wanna try again ? y / n : ")
+
+#         if is_exit == "y":
+#             print("Okay")
+
+#         elif is_exit == "n":
+#             is_running = False
