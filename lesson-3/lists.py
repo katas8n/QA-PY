@@ -21,11 +21,10 @@
 # print(splited_arr[lastElement])
 # print(john)
 
-# slice
+# ! slice
 # sliced_arr = splited_arr[0:2]
 # sliced_arr = splited_arr[1:5:2]
 # print(sliced_arr)
-
 
 # students = "John / Mike / Bob / Ivan / Kir / Perto / Taras / Mouse / Cat"
 
@@ -33,8 +32,7 @@
 
 # print(splited_arr[-4:-1:])
 
-
-# append
+# ! append
 
 # arr = [1, 2, 3]
 
@@ -44,7 +42,7 @@
 # arr.insert(0, 23)
 # print(arr)
 
-# extend
+# ! extend
 
 # group.extend(arr)
 
@@ -52,10 +50,27 @@
 # group.remove("Joe")
 # deleted_element = group.pop()
 
-
 # print(deleted_element)
 # print(group)
 
 # mikes_index = group.index("Mike")
 
 # print(mikes_index)
+
+# print(group.count("John"))
+
+# students = ["Mike", "John", "Bob"]
+
+# copy_of_students = students.copy()
+# print(copy_of_students)
+
+# ! JOIN
+# print(" * ".join(students))
+
+# ! sort
+# ! sorted
+
+# sorted_arr = sorted(students)
+# print(sorted_arr)
+# students.sort()
+# print(students)
