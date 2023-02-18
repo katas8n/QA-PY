@@ -59,11 +59,3 @@
 # mikes_index = group.index("Mike")
 
 # print(mikes_index)
-
-
-print("Hello world")
-
-print("I'm here")
-
-
-# lfksdjlksdflskdfldsfkj
