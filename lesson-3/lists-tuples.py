@@ -36,17 +36,17 @@
 
 # append
 
-arr = [1, 2, 3]
+# arr = [1, 2, 3]
 
-group = ["John", "Mike", "Joe"]
+# group = ["John", "Mike", "Joe"]
 
-arr.append(23)
-arr.insert(0, 23)
-print(arr)
+# arr.append(23)
+# arr.insert(0, 23)
+# print(arr)
 
 # extend
 
-group.extend(arr)
+# group.extend(arr)
 
 # del group[0]
 # group.remove("Joe")
